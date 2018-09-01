@@ -63,9 +63,16 @@ docker run -it -d --hostname node-red \
     --name node-red \
     --restart always \
     -p 1880:1880 \
-    -v ./node-red-data:/data \
+    -v $PWD/node-red-data/:/data \
     --link mosquitto-arm:broker \
     nodered/node-red-docker:rpi-v8
 ```
 
+Check logs for errors:
+
+```
+docker container logs node-red
+```
+
+Connect to:
 http://{host-ip}:1880
