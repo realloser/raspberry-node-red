@@ -25,10 +25,6 @@ Get the docker container
 Docker pull nodered/node-red-docker:rpi-v8
 ```
 
-
-
-
-
 ## Run
 From the root folder run
 
@@ -38,7 +34,7 @@ Create the data persistence folder
 mkdir -p ~/.node-red
 ```
 
-Create the container
+Create the container sample
 ```
 docker run -it -p 1880:1880 -v ~/.node-red:/data --name node-red nodered/node-red-docker:rpi-v8
 ```
