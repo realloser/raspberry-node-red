@@ -510,6 +510,40 @@
      "file": "/usr/src/node-red/node_modules/node-red-node-twitter/27-twitter.js"
     }
    }
+  },
+  "node-red-contrib-deduplicate": {
+   "name": "node-red-contrib-deduplicate",
+   "version": "0.2.0",
+   "local": false,
+   "nodes": {
+    "deduplicate": {
+     "name": "deduplicate",
+     "types": [
+      "deduplicate"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-deduplicate",
+     "file": "/usr/src/node-red/node_modules/node-red-contrib-deduplicate/deduplicate.js"
+    }
+   }
+  },
+  "node-red-node-wol": {
+   "name": "node-red-node-wol",
+   "version": "0.0.8",
+   "local": false,
+   "nodes": {
+    "wol": {
+     "name": "wol",
+     "types": [
+      "wake on lan"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-node-wol",
+     "file": "/usr/src/node-red/node_modules/node-red-node-wol/39-wol.js"
+    }
+   }
   }
  },
  "_credentialSecret": "80718b31f176fac2679926a607dafdc100cf7cff2970eda2bfea657863661649",

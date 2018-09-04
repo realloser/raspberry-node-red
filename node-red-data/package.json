@@ -5,6 +5,7 @@
     "private": true,
     "dependencies": {
         "node-red-contrib-deduplicate": "^0.2.0",
+        "node-red-node-openweathermap": "~0.2.1",
         "node-red-node-wol": "0.0.8"
     }
 }

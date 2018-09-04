@@ -544,6 +544,24 @@
      "file": "/usr/src/node-red/node_modules/node-red-node-wol/39-wol.js"
     }
    }
+  },
+  "node-red-node-openweathermap": {
+   "name": "node-red-node-openweathermap",
+   "version": "0.2.1",
+   "local": false,
+   "nodes": {
+    "openweathermap": {
+     "name": "openweathermap",
+     "types": [
+      "openweathermap",
+      "openweathermap in"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-openweathermap",
+     "file": "/data/node_modules/node-red-node-openweathermap/weather.js"
+    }
+   }
   }
  },
  "_credentialSecret": "80718b31f176fac2679926a607dafdc100cf7cff2970eda2bfea657863661649",
