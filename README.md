@@ -72,3 +72,7 @@ docker container logs node-red
 
 Connect to:
 http://{host-ip}:1880
+
+## Configuration folder
+The configuration folder contains the current state of the flows required to run the Test project.
+Find some details in the folder [node-red-data](node-red-data/)
